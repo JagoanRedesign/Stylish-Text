@@ -11,20 +11,18 @@ async def start(c, m):
     owner_username = owner.username if owner.username else 'Ns_bot_updates'
 
     # start text
-    text = f"""Hey! {m.from_user.mention(style='md')},
+    text = f"""Halo! {m.from_user.mention(style='md')},
 
-💡 ** I am Stylish Font Bot**
+ ** Saya Bot Stylish Font Text **
 
-`I can help you to get stylish fonts. Just send me some text and see magic join my channel @disneygrou ❤.`
-
- My creator👨‍💻   @doreamonfans1 and @doreamonfans2
+Saya dapat membantu Anda mendapatkan font bergaya. Cukup kirimkan saya beberapa teks dan lihat keajaiban. bergabung dengan channel saya @DutabotID.
 """
 
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('My Father 👨‍✈️', url=f"https://t.me/doreamonfans2"),
-            InlineKeyboardButton('updates channel👨‍🔧', url=f"https://t.me/disneygrou")
+            InlineKeyboardButton('Support Chat', url=f"https://t.me/Chat4Robot"),
+            InlineKeyboardButton('Updates Channel', url=f"https://t.me/DutabotID")
         ]
     ]
     await m.reply_text(
